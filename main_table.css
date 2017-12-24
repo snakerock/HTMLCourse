@@ -1,0 +1,74 @@
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+td {
+    padding: 1%;
+}
+
+table {
+    width: 100%;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+    padding: 0;
+}
+
+#logo img {
+    width: 120px;
+    height: 120px;
+}
+
+#label {
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#head {
+    column-span: 3;
+}
+
+#content {
+    width: 60%;
+    vertical-align: top;
+    background-color: rgba(1, 1, 180, 0.02);
+    font-size: medium;
+}
+
+#content img {
+    height: 120px;
+    width: 120px;
+    float: left;
+    margin: 10px;
+    border: 1px;
+}
+
+.menu {
+    font-size: medium;
+    vertical-align: top;
+    padding-top: 0;
+}
+
+#left_menu {
+    width: 20%;
+}
+
+#right_info {
+    width: 20%;
+}
+
+#right_info p {
+    font-size: small;
+    text-align: left;
+}
+
+.info_block {
+}
+
+#bottom {
+
+}
