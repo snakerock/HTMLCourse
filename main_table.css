@@ -1,10 +1,11 @@
 table, th, td {
     border: 0 solid black;
     border-spacing: 0;
+    box-sizing: border-box;
 }
 
 td {
-    padding: 1%;
+    padding: 10px;
 }
 
 table {
@@ -33,7 +34,8 @@ table {
 }
 
 #content {
-    width: 60%;
+    width: 100%;
+    min-width: 400px;
     vertical-align: top;
     background-color: rgba(1, 1, 180, 0.02);
     font-size: medium;
@@ -44,21 +46,21 @@ table {
     width: 120px;
     float: left;
     margin: 10px;
-    border: 1px;
+    border: 1px solid gray;
 }
 
 .menu {
+    width: 200px;
+    min-width: 200px;
     font-size: medium;
     vertical-align: top;
     padding-top: 0;
 }
 
 #left_menu {
-    width: 20%;
 }
 
 #right_info {
-    width: 20%;
 }
 
 #right_info p {

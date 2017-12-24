@@ -3,7 +3,7 @@ table, th, td {
 }
 
 div {
-    padding: 1%;
+    padding: 10px;
     border: 0 solid black;
     box-sizing: border-box;
 }
@@ -13,6 +13,7 @@ table {
 }
 
 .container {
+    min-width: 800px;
     width: 100%;
 }
 
@@ -43,13 +44,16 @@ table {
 }
 
 #label {
+    width: 100%;
     font-size: xx-large;
+    white-space: nowrap;
     text-align: center;
     float: left;
 }
 
 #content {
     width: 60%;
+    min-width: 400px;
     vertical-align: top;
     background-color: rgba(1, 1, 180, 0.02);
     font-size: medium;
@@ -60,21 +64,21 @@ table {
     width: 120px;
     float: left;
     margin: 10px;
-    border: 1px;
+    border: 1px solid gray;
 }
 
 .menu {
+    width: 200px;
+    min-width: 200px;
     font-size: medium;
     vertical-align: top;
     padding-top: 0;
 }
 
 #left_menu {
-    width: 20%;
 }
 
 #right_info {
-    width: 20%;
 }
 
 #right_info p {
